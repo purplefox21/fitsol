@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1539B132CB4898F001A4B84 /* SportsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1539B122CB4898F001A4B84 /* SportsVC.swift */; };
+		D1539B152CB49A46001A4B84 /* ProgVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1539B142CB49A46001A4B84 /* ProgVC.swift */; };
+		D189B64D2CB569E80005E8A9 /* MainVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D189B64C2CB569E80005E8A9 /* MainVc.swift */; };
+		D189B64F2CB57EE70005E8A9 /* TableVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D189B64E2CB57EE70005E8A9 /* TableVCCell.swift */; };
+		D189B6512CB5823A0005E8A9 /* LeaderboardEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D189B6502CB5823A0005E8A9 /* LeaderboardEntry.swift */; };
+		D1A884DA2CB42A3E00EB1CAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A884D92CB42A3E00EB1CAB /* AppDelegate.swift */; };
+		D1A884DC2CB42A3E00EB1CAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A884DB2CB42A3E00EB1CAB /* SceneDelegate.swift */; };
+		D1A884DE2CB42A3E00EB1CAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A884DD2CB42A3E00EB1CAB /* ViewController.swift */; };
+		D1A884E12CB42A3E00EB1CAB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D1A884E02CB42A3E00EB1CAB /* Base */; };
+		D1A884E42CB42A3E00EB1CAB /* FitSol.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1A884E22CB42A3E00EB1CAB /* FitSol.xcdatamodeld */; };
+		D1A884E62CB42A4000EB1CAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A884E52CB42A4000EB1CAB /* Assets.xcassets */; };
+		D1A884E92CB42A4000EB1CAB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D1A884E82CB42A4000EB1CAB /* Base */; };
+		D1A884F42CB42A4000EB1CAB /* FitSolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A884F32CB42A4000EB1CAB /* FitSolTests.swift */; };
+		D1A884FE2CB42A4100EB1CAB /* FitSolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A884FD2CB42A4100EB1CAB /* FitSolUITests.swift */; };
+		D1A885002CB42A4100EB1CAB /* FitSolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A884FF2CB42A4100EB1CAB /* FitSolUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1A884F02CB42A4000EB1CAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1A884CE2CB42A3E00EB1CAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1A884D52CB42A3E00EB1CAB;
+			remoteInfo = FitSol;
+		};
+		D1A884FA2CB42A4100EB1CAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1A884CE2CB42A3E00EB1CAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1A884D52CB42A3E00EB1CAB;
+			remoteInfo = FitSol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1539B122CB4898F001A4B84 /* SportsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsVC.swift; sourceTree = "<group>"; };
+		D1539B142CB49A46001A4B84 /* ProgVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgVC.swift; sourceTree = "<group>"; };
+		D189B64C2CB569E80005E8A9 /* MainVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVc.swift; sourceTree = "<group>"; };
+		D189B64E2CB57EE70005E8A9 /* TableVCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVCCell.swift; sourceTree = "<group>"; };
+		D189B6502CB5823A0005E8A9 /* LeaderboardEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardEntry.swift; sourceTree = "<group>"; };
+		D1A884D62CB42A3E00EB1CAB /* FitSol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitSol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1A884D92CB42A3E00EB1CAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1A884DB2CB42A3E00EB1CAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D1A884DD2CB42A3E00EB1CAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1A884E02CB42A3E00EB1CAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1A884E32CB42A3E00EB1CAB /* FitSol.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FitSol.xcdatamodel; sourceTree = "<group>"; };
+		D1A884E52CB42A4000EB1CAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1A884E82CB42A4000EB1CAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1A884EA2CB42A4000EB1CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1A884EF2CB42A4000EB1CAB /* FitSolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitSolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1A884F32CB42A4000EB1CAB /* FitSolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitSolTests.swift; sourceTree = "<group>"; };
+		D1A884F92CB42A4100EB1CAB /* FitSolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitSolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1A884FD2CB42A4100EB1CAB /* FitSolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitSolUITests.swift; sourceTree = "<group>"; };
+		D1A884FF2CB42A4100EB1CAB /* FitSolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitSolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1A884D32CB42A3E00EB1CAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1A884EC2CB42A4000EB1CAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1A884F62CB42A4100EB1CAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1A884CD2CB42A3E00EB1CAB = {
+			isa = PBXGroup;
+			children = (
+				D1A884D82CB42A3E00EB1CAB /* FitSol */,
+				D1A884F22CB42A4000EB1CAB /* FitSolTests */,
+				D1A884FC2CB42A4100EB1CAB /* FitSolUITests */,
+				D1A884D72CB42A3E00EB1CAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1A884D72CB42A3E00EB1CAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1A884D62CB42A3E00EB1CAB /* FitSol.app */,
+				D1A884EF2CB42A4000EB1CAB /* FitSolTests.xctest */,
+				D1A884F92CB42A4100EB1CAB /* FitSolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1A884D82CB42A3E00EB1CAB /* FitSol */ = {
+			isa = PBXGroup;
+			children = (
+				D1A884D92CB42A3E00EB1CAB /* AppDelegate.swift */,
+				D1A884DB2CB42A3E00EB1CAB /* SceneDelegate.swift */,
+				D1A884DD2CB42A3E00EB1CAB /* ViewController.swift */,
+				D1539B122CB4898F001A4B84 /* SportsVC.swift */,
+				D189B64C2CB569E80005E8A9 /* MainVc.swift */,
+				D189B64E2CB57EE70005E8A9 /* TableVCCell.swift */,
+				D189B6502CB5823A0005E8A9 /* LeaderboardEntry.swift */,
+				D1539B142CB49A46001A4B84 /* ProgVC.swift */,
+				D1A884DF2CB42A3E00EB1CAB /* Main.storyboard */,
+				D1A884E52CB42A4000EB1CAB /* Assets.xcassets */,
+				D1A884E72CB42A4000EB1CAB /* LaunchScreen.storyboard */,
+				D1A884EA2CB42A4000EB1CAB /* Info.plist */,
+				D1A884E22CB42A3E00EB1CAB /* FitSol.xcdatamodeld */,
+			);
+			path = FitSol;
+			sourceTree = "<group>";
+		};
+		D1A884F22CB42A4000EB1CAB /* FitSolTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1A884F32CB42A4000EB1CAB /* FitSolTests.swift */,
+			);
+			path = FitSolTests;
+			sourceTree = "<group>";
+		};
+		D1A884FC2CB42A4100EB1CAB /* FitSolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1A884FD2CB42A4100EB1CAB /* FitSolUITests.swift */,
+				D1A884FF2CB42A4100EB1CAB /* FitSolUITestsLaunchTests.swift */,
+			);
+			path = FitSolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1A884D52CB42A3E00EB1CAB /* FitSol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1A885032CB42A4100EB1CAB /* Build configuration list for PBXNativeTarget "FitSol" */;
+			buildPhases = (
+				D1A884D22CB42A3E00EB1CAB /* Sources */,
+				D1A884D32CB42A3E00EB1CAB /* Frameworks */,
+				D1A884D42CB42A3E00EB1CAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitSol;
+			productName = FitSol;
+			productReference = D1A884D62CB42A3E00EB1CAB /* FitSol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1A884EE2CB42A4000EB1CAB /* FitSolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1A885062CB42A4100EB1CAB /* Build configuration list for PBXNativeTarget "FitSolTests" */;
+			buildPhases = (
+				D1A884EB2CB42A4000EB1CAB /* Sources */,
+				D1A884EC2CB42A4000EB1CAB /* Frameworks */,
+				D1A884ED2CB42A4000EB1CAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1A884F12CB42A4000EB1CAB /* PBXTargetDependency */,
+			);
+			name = FitSolTests;
+			productName = FitSolTests;
+			productReference = D1A884EF2CB42A4000EB1CAB /* FitSolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1A884F82CB42A4100EB1CAB /* FitSolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1A885092CB42A4100EB1CAB /* Build configuration list for PBXNativeTarget "FitSolUITests" */;
+			buildPhases = (
+				D1A884F52CB42A4100EB1CAB /* Sources */,
+				D1A884F62CB42A4100EB1CAB /* Frameworks */,
+				D1A884F72CB42A4100EB1CAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1A884FB2CB42A4100EB1CAB /* PBXTargetDependency */,
+			);
+			name = FitSolUITests;
+			productName = FitSolUITests;
+			productReference = D1A884F92CB42A4100EB1CAB /* FitSolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1A884CE2CB42A3E00EB1CAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D1A884D52CB42A3E00EB1CAB = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D1A884EE2CB42A4000EB1CAB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D1A884D52CB42A3E00EB1CAB;
+					};
+					D1A884F82CB42A4100EB1CAB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D1A884D52CB42A3E00EB1CAB;
+					};
+				};
+			};
+			buildConfigurationList = D1A884D12CB42A3E00EB1CAB /* Build configuration list for PBXProject "FitSol" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1A884CD2CB42A3E00EB1CAB;
+			productRefGroup = D1A884D72CB42A3E00EB1CAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1A884D52CB42A3E00EB1CAB /* FitSol */,
+				D1A884EE2CB42A4000EB1CAB /* FitSolTests */,
+				D1A884F82CB42A4100EB1CAB /* FitSolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1A884D42CB42A3E00EB1CAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A884E62CB42A4000EB1CAB /* Assets.xcassets in Resources */,
+				D1A884E92CB42A4000EB1CAB /* Base in Resources */,
+				D1A884E12CB42A3E00EB1CAB /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1A884ED2CB42A4000EB1CAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1A884F72CB42A4100EB1CAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1A884D22CB42A3E00EB1CAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A884E42CB42A3E00EB1CAB /* FitSol.xcdatamodeld in Sources */,
+				D1A884DE2CB42A3E00EB1CAB /* ViewController.swift in Sources */,
+				D1539B152CB49A46001A4B84 /* ProgVC.swift in Sources */,
+				D1539B132CB4898F001A4B84 /* SportsVC.swift in Sources */,
+				D1A884DA2CB42A3E00EB1CAB /* AppDelegate.swift in Sources */,
+				D189B6512CB5823A0005E8A9 /* LeaderboardEntry.swift in Sources */,
+				D189B64F2CB57EE70005E8A9 /* TableVCCell.swift in Sources */,
+				D189B64D2CB569E80005E8A9 /* MainVc.swift in Sources */,
+				D1A884DC2CB42A3E00EB1CAB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1A884EB2CB42A4000EB1CAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A884F42CB42A4000EB1CAB /* FitSolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1A884F52CB42A4100EB1CAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A884FE2CB42A4100EB1CAB /* FitSolUITests.swift in Sources */,
+				D1A885002CB42A4100EB1CAB /* FitSolUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1A884F12CB42A4000EB1CAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1A884D52CB42A3E00EB1CAB /* FitSol */;
+			targetProxy = D1A884F02CB42A4000EB1CAB /* PBXContainerItemProxy */;
+		};
+		D1A884FB2CB42A4100EB1CAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1A884D52CB42A3E00EB1CAB /* FitSol */;
+			targetProxy = D1A884FA2CB42A4100EB1CAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1A884DF2CB42A3E00EB1CAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1A884E02CB42A3E00EB1CAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1A884E72CB42A4000EB1CAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1A884E82CB42A4000EB1CAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1A885012CB42A4100EB1CAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1A885022CB42A4100EB1CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1A885042CB42A4100EB1CAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DYNP97D9GR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FitSol/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brtlkl.FitSol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1A885052CB42A4100EB1CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DYNP97D9GR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FitSol/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brtlkl.FitSol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D1A885072CB42A4100EB1CAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DYNP97D9GR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brtlkl.FitSolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitSol.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitSol";
+			};
+			name = Debug;
+		};
+		D1A885082CB42A4100EB1CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DYNP97D9GR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brtlkl.FitSolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitSol.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitSol";
+			};
+			name = Release;
+		};
+		D1A8850A2CB42A4100EB1CAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DYNP97D9GR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brtlkl.FitSolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitSol;
+			};
+			name = Debug;
+		};
+		D1A8850B2CB42A4100EB1CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DYNP97D9GR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brtlkl.FitSolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitSol;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1A884D12CB42A3E00EB1CAB /* Build configuration list for PBXProject "FitSol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1A885012CB42A4100EB1CAB /* Debug */,
+				D1A885022CB42A4100EB1CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1A885032CB42A4100EB1CAB /* Build configuration list for PBXNativeTarget "FitSol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1A885042CB42A4100EB1CAB /* Debug */,
+				D1A885052CB42A4100EB1CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1A885062CB42A4100EB1CAB /* Build configuration list for PBXNativeTarget "FitSolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1A885072CB42A4100EB1CAB /* Debug */,
+				D1A885082CB42A4100EB1CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1A885092CB42A4100EB1CAB /* Build configuration list for PBXNativeTarget "FitSolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1A8850A2CB42A4100EB1CAB /* Debug */,
+				D1A8850B2CB42A4100EB1CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D1A884E22CB42A3E00EB1CAB /* FitSol.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D1A884E32CB42A3E00EB1CAB /* FitSol.xcdatamodel */,
+			);
+			currentVersion = D1A884E32CB42A3E00EB1CAB /* FitSol.xcdatamodel */;
+			path = FitSol.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D1A884CE2CB42A3E00EB1CAB /* Project object */;
+}
